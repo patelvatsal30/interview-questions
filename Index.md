@@ -1,7 +1,4 @@
 ## .Net Core
 
-- [What is middleware in .net core](https://github.com/patelvatsal30/interview-questions/blob/main/.net core/what is middleware in .net core.md)
-- [What is difference between middleware and fiters](https://github.com/patelvatsal30/interview-questions/blob/main/.net core/what is difference between middleware and fiters.md)
-- [What is difference between middleware and fiters](.net core/what is difference between middleware and fiters.md)
-## myLib docs
-see documentation [here](myLib/README.md)
+- [What is middleware in .net core](.netcore/what_is_middleware_in_.net_core.md)
+- [What is difference between middleware and fiters](.netcore/what_is_difference_between_middleware_and_fiters.md)
