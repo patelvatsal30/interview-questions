@@ -1,4 +1,4 @@
-## what is difference between middleware and fiters
+# what is difference between middleware and fiters
 
 In ASP.NET Core, both middleware and filters are mechanisms used to handle various aspects of the request processing pipeline, but they serve different purposes and operate at different stages of the request lifecycle. Here’s a breakdown of their differences:
 
