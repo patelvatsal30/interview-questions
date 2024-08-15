@@ -10,4 +10,6 @@
 
 ## Pending to add 
 - Routing
-- 
+- Dependency Injection
+  - Service lifetimes
+  - 
