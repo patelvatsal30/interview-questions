@@ -1,4 +1,5 @@
 [Markdown Editor](https://dillinger.io)
+[File Name Generator](https://branch-name-generator.sbyte.dev)
 
 ## .Net Core
 
