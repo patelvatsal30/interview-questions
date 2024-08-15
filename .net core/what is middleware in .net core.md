@@ -1,4 +1,4 @@
-## what is middleware in .net core
+# what is middleware in .net core
 
 In .NET Core, middleware is a fundamental component of the request processing pipeline used in web applications. Essentially, middleware is software that handles HTTP requests and responses and performs various tasks such as authentication, logging, error handling, and more.
 
