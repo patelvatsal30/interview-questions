@@ -6,12 +6,6 @@ https://www.geeksforgeeks.org/how-data-flows-between-systems-in-microservices/?r
 
 ### What are Microservices?
 
-Microservices, or microservices architecture, is an architectural style that structures an application as a collection of small, autonomous services modeled around a business domain. Each microservice is a self-contained unit that encapsulates a specific business functionality, runs independently, and communicates with other microservices through well-defined APIs. This architecture enables continuous delivery and deployment, facilitating rapid and reliable software delivery.
-
-Microservice is a small, loosely coupled distributed service. Each microservice is designed to perform a specific business function and can be developed, deployed, and scaled independently. It allows you to take a large application and decompose or break it into easily manageable small components with narrowly defined responsibilities. It is considered the building block of modern applications. Microservices can be written in a variety of programming languages, and frameworks, and each service acts as a mini-application on its own.
-
-Microservices are an architectural approach to develop software applications as a collection of small, independent services that communicate with each other over a network. Instead of building a monolithic application where all the functionality is tightly integrated into a single codebase, microservices break down the application into smaller, loosely coupled services.
-
 Microservices architecture is an approach to building software applications as a collection of loosely coupled, independently deployable services. Each service is designed to handle a specific business function and communicate with other services through well-defined APIs.
 
 Microservices are an architectural style used in software development where an application is structured as a collection of small, independent services, each of which handles a specific business function. Unlike traditional monolithic architectures, where all components of an application are tightly integrated into a single codebase, microservices allow each component to be developed, deployed, and scaled independently. Here's a detailed look at microservices:
