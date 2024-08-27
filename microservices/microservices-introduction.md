@@ -101,3 +101,40 @@ Service Registry and Discovery: This component keeps track of the locations and 
 Caching: Caching mechanisms can be implemented to improve performance by storing frequently accessed data closer to the microservices. This reduces the need to repeatedly fetch the same data from databases.
 
 **Fault Tolerance and Resilience Components**: Implementing components for fault tolerance, such as circuit breakers and retry mechanisms, ensures that the system can gracefully handle failures in microservices and recover without impacting overall functionality.
+
+### What are the Design Patterns of Microservices?
+When a problem occurs while working on a system, there are some practices that are to be followed and in microservices, those practices are Design Patterns. Microservices design patterns are such practices which when followed lead to efficient architectural patterns resulting in overcoming challenges such as inefficient administration of these services and also maximizing performance. While working on an application, one must be aware of which design pattern to be used for creating an efficient application.
+
+- Aggregator
+  - It invoked services to receive the required information (related data) from different services, apply some logic and produce the result.
+  - The data collected can be utilized by the respective services. The steps followed in the aggregator pattern involve the request received by the service, and then the request made to multiple other services combines each result and finally responds to the initial request. 
+- API Gateway
+  - API Gateway acts as a solution to the request made to microservices.
+  - It serves as an entry point to all the microservices and creates fine-grained APIs for different clients.
+  - Requests made are passed to the API Gateway and the load balancer helps in checking whether the request is handled and sent to the respective service.
+- Event Sourcing
+  - This design pattern creates events regarding changes (data) in the application state.
+  - Using these events, developers can keep track of records of changes made.
+- Strangler
+  - Strangler is also known as a Vine pattern since it functions the same way vine strangles a tree around it. For each URI (Uniform Resource Identifier) call, a call goes back and forth and is also broken down into different domains.
+  - Here, two separate applications remain side by side in the same URI space, and here one domain will be taken into account at a time. Thus, the new refactored application replaces the original application.
+- Decomposition
+  - Decomposition design pattern is decomposing an application into smaller microservices, that have their own functionality.
+  - Based on the business requirements, you can break an application into sub-components. For example, Amazon has separate services for products, orders, customers, payments, etc.
+ 
+### Microservices vs. Monolithic Architecture?
+Below is a tabular comparison between microservices and monolithic architecture across various aspects:
+
+|Aspect|Microservices Architecture|Monolithic Architecture|
+| ------ | ------ | ------ |
+| **Architecture Style** | Decomposed into small, independent services. | Single, tightly integrated codebase. |
+| **Development Team Structure** | Small, cross-functional teams for each microservice. | Larger, centralized development team. |
+| **Scalability** | Independent scaling of individual services. | Scaling involves replicating the entire application. |
+| **Deployment** | Independent deployment of services. | Whole application is deployed as a single unit. |
+| **Resource Utilization** | Efficient use of resources as services can scale independently. | Resources allocated based on the overall application’s needs. |
+| **Development Speed** | Faster development and deployment cycles. | Slower development and deployment due to the entire codebase. |
+| **Flexibility** | Easier to adopt new technologies for specific services. | Limited flexibility due to a common technology stack. |
+| **Maintenance** | Easier maintenance of smaller, focused codebases. | Maintenance can be complex for a large, monolithic codebase. |
+| **Testing** | Independent testing of each microservice. | Comprehensive testing of the entire application. |
+| **Infrastructure Dependency** | Less dependent on specific infrastructure choices. | Tied to specific infrastructure due to a shared codebase. |
+
