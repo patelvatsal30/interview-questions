@@ -20,6 +20,7 @@
 - Microservices
   - [How do Microservices Communicate With Each Other?](https://www.geeksforgeeks.org/how-do-microservices-communicate-with-each-other)
   - Practical - [Microservices Using ASP.NET Core](https://www.c-sharpcorner.com/article/microservice-using-asp-net-core)
+  - https://www.scholarhat.com/tutorial/microservices/microservices-interview-questions-answer
 - Archicrture
   - [Event-Driven Architecture – System Design](https://www.geeksforgeeks.org/event-driven-architecture-system-design)
   - [Domain-Driven Design (DDD)](https://www.geeksforgeeks.org/domain-driven-design-ddd)
