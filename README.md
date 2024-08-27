@@ -41,3 +41,5 @@
   - [ASP.NET MVC Web API Interview Questions and Answers](https://dotnettutorials.net/lesson/web-api-interview-questions/)
   - [ASP.NET Core Interview Questions and Answers](https://dotnettutorials.net/course/asp-net-core-tutorials/)
   - [Dot Net Design Patterns](https://dotnettutorials.net/course/dot-net-design-patterns/), [Questions and Answers](https://dotnettutorials.net/course/dot-net-design-patterns/)
+ 
+  - https://devblogs.microsoft.com/dotnet/your-top-dotnet-microservices-questions-answered/
