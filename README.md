@@ -25,3 +25,4 @@
 - EF
 - Asp.net core
 - JWT
+- [Design Patterns](https://dotnettutorials.net/course/dot-net-design-patterns)
